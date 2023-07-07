@@ -11,3 +11,6 @@ serde = {version = "1.0.164", features = ["derive"] }
 aws-config = "0.55.3"
 aws-sdk-dynamodb = "0.28.0"
 tokio = { version = "1", features = ["full"] }
+derive_more = "0.99.17"
+uuid = { version = "1.4.0", features = ["v4", "fast-rng", "macro-diagnostics"]}
+serde_dynamo = { version = "4", features = ["aws-sdk-dynamodb+0_28"] }

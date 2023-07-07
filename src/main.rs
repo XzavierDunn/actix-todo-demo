@@ -1,3 +1,4 @@
+mod dynamo;
 mod todo;
 use crate::todo::routes::configure_todo_scope;
 use actix_web::{App, HttpServer};
